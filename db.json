@@ -1,0 +1,191 @@
+{
+    "entities": [
+        {
+            "name": "مؤسسة خالد للسياحة متعددة الانشطة",
+            "enitityNumber": "70021021",
+            "expirationDate": "22/12/2012",
+            "id": "1",
+            "recordNumber": "1023102",
+            "registrationStatus": "قائم",
+            "registrationType": "سجل رئيسي",
+            "starred": false,
+            "type": "مؤسسة"
+        },
+        {
+            "name": "مؤسسة سعد للسياحة نشاط فردي",
+            "enitityNumber": "70021021",
+            "expirationDate": "22/12/2012",
+            "id": "1",
+            "recordNumber": "1023102",
+            "registrationStatus": "قائم",
+            "registrationType": "سجل رئيسي",
+            "starred": true,
+            "type": "مؤسسة",
+            "registrationWarning": "warning"
+        },
+        {
+            "name": "مؤسسة قاسم للسياحة ثنائية النشاط ",
+            "enitityNumber": "70021021",
+            "expirationDate": "22/12/2012",
+            "id": "1",
+            "recordNumber": "1023102",
+            "registrationStatus": "مشطوب",
+            "registrationType": "فرعي",
+            "starred": false,
+            "type": "مؤسسة",
+            "registrationWarning": "disabled"
+        }
+    ],
+    "tabs": [
+        {
+            "name": "العدد الكلي",
+            "number": 3,
+            "id": 0
+        },
+        {
+            "name": "السجلات الفرعية",
+            "number": 1,
+            "id": 1
+        },
+        {
+            "name": "عدد سجلات المؤسسات",
+            "number": 3,
+            "id": 2
+        },
+        {
+            "name": "السجلات المفضلة",
+            "number": 0,
+            "id": 3
+        }
+    ],
+    "stat": [
+        {
+            "entityName": "الشركة السعودية للكهرباء",
+            "imgUrl": "",
+            "Fields": [
+                {
+                    "name": "المبلغ المستحق",
+                    "value": 7342.55,
+                    "currency": "ريال"
+                },
+                {
+                    "name": "العدد الإجمالي",
+                    "value": 121
+                }
+            ]
+        },
+        {
+            "entityName": "شركة الاتصالات السعودية",
+            "imgUrl": "",
+            "Fields": [
+                {
+                    "name": "المبلغ المستحق",
+                    "value": 3204,
+                    "currency": "ريال"
+                },
+                {
+                    "name": "العدد الإجمالي",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "entityName": "شركة المياه الوطنية",
+            "imgUrl": "",
+            "Fields": [
+                {
+                    "name": "المبلغ المستحق",
+                    "value": 11232.3,
+                    "currency": "ريال"
+                },
+                {
+                    "name": "العدد الإجمالي",
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "entityName": "المنصة الوطنية للمخالفات",
+            "imgUrl": "",
+            "Fields": [
+                {
+                    "name": "المبلغ المستحق",
+                    "value": 2321.3,
+                    "currency": "ريال"
+                },
+                {
+                    "name": "العدد الإجمالي",
+                    "value": 29
+                }
+            ]
+        },
+        {
+            "entityName": "هيئة قوائم",
+            "imgUrl": "",
+            "Fields": [
+                {
+                    "name": "العدد الإجمالي للقوائم المالية التي تم إيداعها",
+                    "value": 12
+                },
+                {
+                    "name": "عددالقوائم المالية المطلوب إيداعها",
+                    "value": 12
+                }
+            ]
+        },
+        {
+            "entityName": "هيئة الاتصالات",
+            "imgUrl": "",
+            "Fields": [
+                {
+                    "name": "إحصائيات النظافة المسجلة",
+                    "value": 8
+                }
+            ]
+        },
+        {
+            "entityName": "التأمينات الاجتماعية",
+            "imgUrl": "",
+            "Fields": [
+                {
+                    "name": "العدد الاجمالي للموظفين",
+                    "value": 23
+                },
+                {
+                    "name": "إجمالي المبالغ المترتبة",
+                    "value": 23
+                },
+                {
+                    "name": "إجمالي الغرامات ",
+                    "value": 23
+                },
+                {
+                    "name": "إجمالي الاشتاركات المترتبة",
+                    "value": 23
+                }
+            ]
+        },
+        {
+            "entityName": "هيئة الزكاة والضريبة والجمارك",
+            "imgUrl": "",
+            "Fields": [
+                {
+                    "name": "اجمالي تكاليف ممتثل",
+                    "value": 121
+                },
+                {
+                    "name": "اجمالي تكاليف إنذار",
+                    "value": 121
+                },
+                {
+                    "name": "اجمالي تكاليف موقوف",
+                    "value": 121
+                },
+                {
+                    "name": "العدد الاجمالي للتكاليف",
+                    "value": 121
+                }
+            ]
+        }
+    ]
+}

@@ -1,5 +1,5 @@
-export interface State {
-    name: string;
+export interface Stat {
+    entityName: string;
     imgUrl: string;
     Fields: Field[];
 
@@ -7,5 +7,6 @@ export interface State {
 
 interface Field {
     name: string;
-    value: string;
+    value: number;
+    currency?: string;
 }

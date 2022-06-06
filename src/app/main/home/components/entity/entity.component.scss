@@ -1,0 +1,66 @@
+.entity-card {
+  border: 1px solid grey;
+  margin-bottom: 16px;
+  padding: 10px 20px 30px 10px;
+  .name {
+    font-weight: 700;
+  }
+  .dropdown-toggle {
+    &:after {
+      content: none;
+    }
+  }
+  .more {
+    background-color: #e9effd;
+    color: #2b67ef;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    &.starred {
+      background-color: #2b67ef;
+      color: white;
+    }
+  }
+  .status,
+  .type {
+    background-color: #f1faf1;
+    .result {
+      color: #00932c;
+      font-weight: 700;
+    }
+
+    &.disabled {
+      background-color: #f1f1f1;
+      .result {
+        color: #8b8b8b;
+      }
+    }
+  }
+  .status {
+    &.warning {
+      background-color: #fff1e5;
+      .result {
+        color: #ffa86c;
+      }
+    }
+  }
+  .info {
+    img {
+      height: 24px;
+    }
+    span {
+      color: #a7a7a7;
+      font-weight: 700;
+    }
+    .result {
+      line-height: 32px;
+      font-weight: 700;
+    }
+  }
+
+  .btn-show {
+    background-color: #d5e1fc;
+    color: #2c67ee;
+    font-weight: 700;
+  }
+}

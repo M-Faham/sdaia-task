@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SidebarService } from './layout/sidebar/sidebar.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'sdaia-task';
+
+  constructor(public sidebarService: SidebarService) { }
+  toggleNav(): void {
+    this.sidebarService.toggle();
+  }
 }

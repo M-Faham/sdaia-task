@@ -1,0 +1,6 @@
+.nav-link {
+  font-weight: 600;
+  &.active {
+    background-color: rgba($color: #fff, $alpha: 0.25);
+  }
+}

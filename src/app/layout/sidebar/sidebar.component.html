@@ -1,0 +1,32 @@
+<div class="sidebar w-100 h-100">
+
+    <div class="col-12 d-lg-none d-block">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-auto">
+                <button class="btn text-white" (click)="toggleNav()">
+                    ☰
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="w-100 text-center mb-4 pt-4">
+        <img src="assets/logo.png" class="w-75">
+    </div>
+    <div class="w-100 text-right text-white px-3">
+        مرحباً
+    </div>
+    <div class="w-100 text-white px-3 py-3">
+        <div class="row m-0 justify-content-between">
+            <fa-icon class="col-1 p-0" [icon]="icons.user"></fa-icon>
+            <span class="col-10 text-truncate p-0 username">{{user.fullname}}</span>
+            <fa-icon class="col-1 p-0" [icon]="icons.arrow"></fa-icon>
+        </div>
+    </div>
+    <div *ngFor="let item of navs and let i = index" class="group" [class.bordered]="i!=0">
+        <span class="group-title px-3"> {{item.name}}</span>
+        <div *ngFor="let links of item.children">
+            <app-sidebar-item [navItem]="links"></app-sidebar-item>
+        </div>
+    </div>
+
+</div>

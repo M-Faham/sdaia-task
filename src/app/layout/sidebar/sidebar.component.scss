@@ -1,0 +1,17 @@
+.sidebar {
+  background-color: #483bc8;
+
+  .username {
+    font-size: 18px;
+  }
+
+  .group {
+    padding-top: 20px;
+    &.bordered {
+      border-top: 1px solid white;
+    }
+    .group-title {
+      color: rgba($color: #fff, $alpha: 0.5);
+    }
+  }
+}

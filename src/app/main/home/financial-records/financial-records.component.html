@@ -1,0 +1,14 @@
+<h2 class="title my-4">قائمة السجلات التجارية</h2>
+
+<nav ngbNav #nav="ngbNav" class="nav-tabs" [activeId]='0'>
+  <ng-container [ngbNavItem]="tab.id" *ngFor="let tab of tabs">
+    <a ngbNavLink>{{tab.name}} {{tab.number}}</a>
+    <ng-template ngbNavContent>
+      <div *ngFor="let entity of entities" class="pt-2">
+        <app-entity [entity]="entity"></app-entity>
+      </div>
+    </ng-template>
+  </ng-container>
+</nav>
+
+<div [ngbNavOutlet]="nav" class="mt-2"></div>

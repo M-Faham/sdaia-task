@@ -1,0 +1,14 @@
+.title {
+  color: #793699;
+  font-weight: 700;
+}
+.nav-tabs {
+  border: 0;
+  .nav-item {
+    font-weight: 700;
+    color: black;
+    &.active {
+      border-bottom: 4px solid #483bc8;
+    }
+  }
+}

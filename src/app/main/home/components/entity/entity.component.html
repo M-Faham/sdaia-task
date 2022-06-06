@@ -1,0 +1,87 @@
+<div class="entity-card">
+  <div class="row justify-content-between m-0">
+    <div class="col name fs-5">
+      {{entity.name}}
+    </div>
+    <div class="col-auto p-0">
+      <div class="row m-0">
+        <button class="btn more col-auto  mx-3" [class.starred]="entity.starred">
+          <fa-icon [icon]="entity.starred? icons.starSolid:icons.star"></fa-icon>
+        </button>
+        <div ngbDropdown class="col-auto">
+          <button class="btn more col-auto" id="moreDrowDown" ngbDropdownToggle>
+            <fa-icon [icon]="icons.more"></fa-icon>
+          </button>
+          <div ngbDropdownMenu aria-labelledby="moreDrowDown">
+            <button ngbDropdownItem>تعديل السجل التجاري</button>
+            <button ngbDropdownItem>تجديد السجل التجاري</button>
+            <button ngbDropdownItem>شطب السجل التجاري</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-auto status {{entity?.registrationWarning}}">
+      <span>حالة السجل :</span>
+      <span class="result"> {{entity?.registrationStatus}}</span>
+    </div>
+    <div class="col-auto mx-3 type {{entity?.registrationWarning}}">
+      <span>نوع السجل :</span>
+      <span class="result"> {{entity?.registrationType}}</span>
+    </div>
+  </div>
+
+  <div class="row justify-content-between mt-3">
+    <div class="col-xl-3 col-md-6 col-12 mb-3">
+      <div class="row m-0 info align-items-center">
+        <div class="col-lg-12 col-auto">
+          <img class="mx-2" src="assets/entity-type.png">
+          <span>نوع الكيان التجاري</span>
+        </div>
+        <div class="col-lg-12 col-auto mx-4">
+          {{entity.type}}
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6 col-12 mb-3">
+      <div class="row m-0 info align-items-center">
+        <div class="col-lg-12 col-auto">
+          <img class="mx-2" src="assets/exp-date.png">
+          <span>تاريخ الانتهاء</span>
+        </div>
+        <div class="col-lg-12 col-auto mx-4">
+          {{entity.expirationDate}}
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6 col-12 mb-3">
+      <div class="row m-0 info align-items-center">
+        <div class="col-lg-12 col-auto">
+          <img class="mx-2" src="assets/entity-number.png">
+          <span>الرقم الموحد للمنشأة</span>
+        </div>
+        <div class="col-lg-12 col-auto mx-4">
+          {{entity.enitityNumber}}
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6 col-12 mb-3">
+      <div class="row m-0 info align-items-center">
+        <div class="col-lg-12 col-auto">
+          <img class="mx-2" src="assets/financial-record-number.png">
+          <span>رقم السجل التجاري</span>
+        </div>
+        <div class="col-lg-12 col-auto mx-4">
+          {{entity.recordNumber}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="btn p-2 col-auto btn-show">
+    عرض و إدارة السجل
+  </button>
+
+</div>

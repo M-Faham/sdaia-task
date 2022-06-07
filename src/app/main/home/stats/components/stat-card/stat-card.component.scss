@@ -1,0 +1,33 @@
+.stat-card {
+  border: 1px solid grey;
+  max-width: 320px;
+  padding: 15px;
+  margin-bottom: 20px;
+  .header {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+    .name {
+      font-weight: 700;
+    }
+    img {
+      height: 24px;
+    }
+  }
+  .fields {
+    .name {
+      color: #8b8b8b;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .value {
+      font-weight: 700;
+      font-size: 14px;
+      &.success {
+        font-weight: bold;
+        background-color: #f1faf1;
+        color: #00932c;
+      }
+    }
+  }
+}

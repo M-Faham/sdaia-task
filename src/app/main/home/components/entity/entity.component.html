@@ -1,6 +1,6 @@
 <div class="entity-card">
   <div class="row justify-content-between m-0">
-    <div class="col name fs-5">
+    <div class="col name fs-5 p-0">
       {{entity.name}}
     </div>
     <div class="col-auto p-0">
@@ -22,7 +22,7 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row m-0">
     <div class="col-auto status {{entity?.registrationWarning}}">
       <span>حالة السجل :</span>
       <span class="result"> {{entity?.registrationStatus}}</span>
@@ -80,8 +80,10 @@
     </div>
   </div>
 
-  <button class="btn p-2 col-auto btn-show">
-    عرض و إدارة السجل
-  </button>
+  <div class="row m-0 btn-show">
+    <button class="btn p-2 col-auto ">
+      عرض و إدارة السجل
+    </button>
+  </div>
 
 </div>

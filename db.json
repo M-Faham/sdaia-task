@@ -58,11 +58,11 @@
             "id": 3
         }
     ],
-    "stat": [
+    "stats": [
         {
             "entityName": "الشركة السعودية للكهرباء",
-            "imgUrl": "",
-            "Fields": [
+            "imgUrl": "assets/entities/1.png",
+            "fields": [
                 {
                     "name": "المبلغ المستحق",
                     "value": 7342.55,
@@ -76,8 +76,8 @@
         },
         {
             "entityName": "شركة الاتصالات السعودية",
-            "imgUrl": "",
-            "Fields": [
+            "imgUrl": "assets/entities/2.png",
+            "fields": [
                 {
                     "name": "المبلغ المستحق",
                     "value": 3204,
@@ -91,8 +91,8 @@
         },
         {
             "entityName": "شركة المياه الوطنية",
-            "imgUrl": "",
-            "Fields": [
+            "imgUrl": "assets/entities/3.png",
+            "fields": [
                 {
                     "name": "المبلغ المستحق",
                     "value": 11232.3,
@@ -106,8 +106,8 @@
         },
         {
             "entityName": "المنصة الوطنية للمخالفات",
-            "imgUrl": "",
-            "Fields": [
+            "imgUrl": "assets/entities/4.png",
+            "fields": [
                 {
                     "name": "المبلغ المستحق",
                     "value": 2321.3,
@@ -121,8 +121,8 @@
         },
         {
             "entityName": "هيئة قوائم",
-            "imgUrl": "",
-            "Fields": [
+            "imgUrl": "assets/entities/5.png",
+            "fields": [
                 {
                     "name": "العدد الإجمالي للقوائم المالية التي تم إيداعها",
                     "value": 12
@@ -135,8 +135,8 @@
         },
         {
             "entityName": "هيئة الاتصالات",
-            "imgUrl": "",
-            "Fields": [
+            "imgUrl": "assets/entities/6.png",
+            "fields": [
                 {
                     "name": "إحصائيات النظافة المسجلة",
                     "value": 8
@@ -145,8 +145,8 @@
         },
         {
             "entityName": "التأمينات الاجتماعية",
-            "imgUrl": "",
-            "Fields": [
+            "imgUrl": "assets/entities/7.png",
+            "fields": [
                 {
                     "name": "العدد الاجمالي للموظفين",
                     "value": 23
@@ -167,8 +167,8 @@
         },
         {
             "entityName": "هيئة الزكاة والضريبة والجمارك",
-            "imgUrl": "",
-            "Fields": [
+            "imgUrl": "assets/entities/8.png",
+            "fields": [
                 {
                     "name": "اجمالي تكاليف ممتثل",
                     "value": 121

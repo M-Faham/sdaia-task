@@ -1,0 +1,23 @@
+<div class="stat-card">
+  <div class="row header">
+    <div class="col name fs-5 p-0">
+      {{stat.entityName}}
+    </div>
+    <div class="col-auto p-0">
+      <img [src]="stat.imgUrl">
+    </div>
+  </div>
+
+  <div class="row m-0 fields justify-content-between">
+    <div class="col-xl-5 col-12 p-0" *ngFor="let f of stat.fields">
+      <div class="row m-0">
+        <div class="col-12 p-0 name">
+          {{f.name}}
+        </div>
+        <div class="col-auto p-1 value" [class.success]="f.currency">
+          {{f.value}} {{f.currency}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

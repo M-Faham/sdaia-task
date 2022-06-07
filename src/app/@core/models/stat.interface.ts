@@ -1,7 +1,7 @@
 export interface Stat {
     entityName: string;
     imgUrl: string;
-    Fields: Field[];
+    fields: Field[];
 
 }
 

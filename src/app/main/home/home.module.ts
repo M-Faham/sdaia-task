@@ -7,6 +7,7 @@ import { EntityComponent } from './components/entity/entity.component';
 import { FinancialRecordsComponent } from './financial-records/financial-records.component';
 import { HomeComponent } from './home.component';
 import { HomeRotuingModule } from './home.routing';
+import { StatCardComponent } from './stats/components/stat-card/stat-card.component';
 import { StatsComponent } from './stats/stats.component';
 
 @NgModule({
@@ -18,6 +19,6 @@ import { StatsComponent } from './stats/stats.component';
     FontAwesomeModule,
     NgbDropdownModule,
   ],
-  declarations: [HomeComponent, EntityComponent, FinancialRecordsComponent, StatsComponent]
+  declarations: [HomeComponent, EntityComponent, FinancialRecordsComponent, StatsComponent, StatCardComponent]
 })
 export class HomeModule { }
